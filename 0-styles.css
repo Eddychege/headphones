@@ -7,8 +7,17 @@
   
   .header-logo img {
     width: 150px;
+    z-index: 2;
+    position: relative;
   }
-  
+  .header-logo a.active,
+  .nav ul li a.active {
+    color: red;
+  }
+  .header-logo a:hover,
+  .nav ul li a:hover {
+    color: red;
+  }
   .nav ul {
     list-style-type: none;
     padding: 0;
@@ -28,6 +37,7 @@
     color: #ffffff;
     text-decoration: none;
   }
+  
   .container{
     display: flex;
     align-items: center;
@@ -54,7 +64,7 @@
 
   /* Add custom styles to the hero section */
   #hero {
-    background-image: url(https://media.istockphoto.com/id/1215821052/photo/afro-woman-in-headphones-listening-to-music-and-dancing-over-grey-studio-background.jpg?s=612x612&w=0&k=20&c=xNyFL0Q_bPZ6pz_Si2aGzkvTNfhPAyASOqXVc9DZWTA=);
+    background-image: url(images/headphones_hero_1.jpg);
     background-size: cover;
     background-position: center;
     color: #979797;
@@ -97,4 +107,6 @@
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
   }
