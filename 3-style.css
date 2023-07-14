@@ -110,4 +110,118 @@
     position: relative;
     z-index: 1;
   }
+  /* Add custom styles to the main section */
+.what-we-do {
+  background-color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-what-we-do h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-what-we-do p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+
+.icons .row {
+  flex-basis: 300px;
+  text-align: center;
+}
+
+.icons h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.icons p {
+  color: #333;
+  font-size: 14px;
+}
+
+.container-1 {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    max-width: 100%;
+  }
   
+  .section-description {
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+  }
+  
+  .section-description h1 {
+    font-size: 40px;
+  }
+  
+  .section-description p {
+    font-size: 20px;
+    margin-top: 90px;
+  }
+  
+  .dot {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+  .dot img {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+.header-form {
+    text-align: center;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-button {
+    margin-top: 10px;
+}
+
+#submit-button button {
+    background-color: #ff6565;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
